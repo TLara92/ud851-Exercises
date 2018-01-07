@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
      */
     private void makeGithubSearchQuery() {
         String githubQuery = mSearchBoxEditText.getText().toString();
-        
+
         if (TextUtils.isEmpty(githubQuery)) {
             mUrlDisplayTextView.setText("No query entered, nothing to search for.");
             return;
