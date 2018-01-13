@@ -21,12 +21,19 @@
     <!-- Key name for storing treble in SharedPreferences -->
     <string name="pref_show_treble_key" translatable="false">show_treble</string>
 
+    <!-- Label for the show color checkbox preference -->
+    <string name="pref_color_label">Shape Color</string>
+    <!-- Key name for storing color in SharedPreferences -->
+    <string name="pref_color_key" translatable="false">color_key</string>
+
     <!-- Summary for Checkboxes -->
     <string name="pref_show_true">Shown</string>
     <string name="pref_show_false">Hidden</string>
 
-    <!-- TODO (2) Add string values for the list preference -->
-    <!-- TODO (3) Add a res->values->arrays.xml file which contains two arrays, one for
+    <string name="pref_color_label_red">Red</string>
+    <string name="pref_color_label_green">Green</string>
+    <string name="pref_color_label_blue">Blue</string>
+
         labels and one for values. The arrays should contain strings found in this file-->
 
     <!-- Value in SharedPreferences for red color option -->
