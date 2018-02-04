@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Note that these first two to-do's are complete for this exercise, but included as general steps for creating alternative layout resources -->
-
-
-<!-- The image layout height should be = 200dp and weight = 1, add 8dp padding to the right -->
 
 <!-- Vertical linear layout for a sample article -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
@@ -28,13 +24,6 @@
         android:gravity="center"
         android:contentDescription="@string/image_placeholder" />
 
-    <LinearLayout
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_weight="2"
-        android:paddingRight="8dp"
-        android:paddingLeft="8dp">
     <TextView
         android:id="@+id/title"
         android:layout_width="wrap_content"
@@ -63,6 +52,5 @@
         android:text="@string/sample_body_text"
         android:textColor="@android:color/black"
         android:textSize="20sp" />
-    </LinearLayout>
 
 </LinearLayout>
